@@ -14,3 +14,13 @@ h1.main{
 body{
     background-color: #1f1f1f;
 }
+
+.mainContainer{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    opacity: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
