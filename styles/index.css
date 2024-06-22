@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url('../fonts/Comfortaa.ttf');
+}
+
+h1.main{
+    font-size: 44px;
+    text-align: center;
+    color: cadetblue;
+    text-shadow: 2px 2px 1px rgb(58, 96, 97);
+    font-family: Comfortaa;
+}
+
+body{
+    background-color: #1f1f1f;
+}
