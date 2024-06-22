@@ -17,10 +17,12 @@ body{
 
 .mainContainer{
     position: absolute;
-    width: 25%;
-    height: 25%;
-    opacity: 1;
+    width: 700px;
+    height: 300px;
+    opacity: 0.5;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    background-color: aqua;
+    border-radius: 50px;
 }
