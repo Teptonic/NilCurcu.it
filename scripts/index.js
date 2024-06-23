@@ -38,7 +38,7 @@ window.addEventListener('click', loadSite);
 
 
 
-const audio = document.getElementById('backgroundAudio');
+const audio = document.getElementById('background-music');
 const volumeControl = document.getElementById('volumeControl');
 
 volumeControl.addEventListener('input', function() {
