@@ -13,3 +13,18 @@ window.addEventListener('click', function() {
         loader.remove()
     }, 350)
 });
+
+
+function toggleMusic(){
+    if (toggled == true){
+        music.pause();
+        document.getElementById('toggleMusic').src = '../images/pause.png';
+        toggled = !toggled;
+    } else if (toggled == false){
+        music.play();
+        document.getElementById('toggleMusic').src = '../images/play.png';
+        toggled = !toggled;
+    }
+}
+
+document.getElementById('toggleMusic').addEventListener('click', toggleMusic)

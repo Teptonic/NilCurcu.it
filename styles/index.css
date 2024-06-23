@@ -3,12 +3,42 @@
     src: url('../fonts/Comfortaa.ttf');
 }
 
-h1.main{
+@font-face {
+    font-family: Arimo;
+    src: url('../fonts/Arimo-Regular.ttf');
+}
+
+@font-face {
+    font-family: ChakraPetch;
+    src: url('../fonts/ChakraPetch-Medium.ttf');
+}
+
+@font-face {
+    font-family: Tiny5;
+    src: url('../fonts/Tiny5-Regular.ttf');
+}
+
+@font-face {
+    font-family: Silkscreen;
+    src: url('../fonts/Silkscreen-Regular.ttf');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway-Light.ttf');
+}
+
+h1.main {
     font-size: 44px;
     text-align: center;
-    color: cadetblue;
-    text-shadow: 2px 2px 1px rgb(58, 96, 97);
-    font-family: Comfortaa;
+    color: rgb(0, 247, 255);
+    font-family: Raleway;
+    text-shadow: 
+        0 0 5px rgb(0, 247, 255), 
+        0 0 10px rgb(0, 247, 255), 
+        0 0 20px rgb(0, 247, 255), 
+        0 0 40px rgb(0, 247, 255), 
+        0 0 80px rgb(0, 247, 255);
 }
 
 body{
@@ -29,26 +59,30 @@ body{
     position: absolute;
     width: 700px;
     height: 300px;
-    opacity: 0.5;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(0, 133, 133);
-    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    border: 2px solid #818181;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 1)
+    border: 2px solid #000000;
+    box-shadow: 0 0 15px rgb(0, 0, 0)
 }
 
 .bio{
-    color: rgb(140, 231, 235);
-    font-family: Comfortaa;
-    font-size: x-large;
-    z-index: 998;
-    opacity: 1;
+    font-size: 30px;
     text-align: center;
+    color: rgb(0, 247, 255);
+    font-family: Raleway;
+    text-shadow: 
+        0 0 5px rgb(0, 247, 255), 
+        0 0 10px rgb(0, 247, 255), 
+        0 0 20px rgb(0, 247, 255), 
+        0 0 40px rgb(0, 247, 255), 
+        0 0 80px rgb(0, 247, 255);
 }
+
 
 #waitForClick{
     transition: opacity 500ms;
@@ -120,4 +154,15 @@ body{
     font-family: Comfortaa;
     top: 50%;
     transform: translateY(-50%);
+}
+
+#toggleSound{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 64px;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #ffffff44;
+    border: 2px solid #818181;
 }
