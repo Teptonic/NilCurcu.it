@@ -83,6 +83,7 @@ body{
     font-size: 70px;
     color: rgb(0, 255, 255);
     text-align: center;
-    vertical-align: center;
     font-family: Comfortaa;
+    top: 50%;
+    transform: translateY(-50%);
 }
