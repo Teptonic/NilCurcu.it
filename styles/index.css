@@ -40,8 +40,8 @@ body{
 
 .bio{
     color: rgb(140, 231, 235);
-    font: Comfortaa;
-    font-size: xx-large;
+    font-family: Comfortaa;
+    font-size: x-large;
     z-index: 998;
     opacity: 1;
     text-align: center;
@@ -69,4 +69,12 @@ body{
 
 .friendList{
     color: #2bff01;
+}
+
+.clickMeText{
+    font-size: 70px;
+    color: rgb(0, 255, 255);
+    text-align: center;
+    vertical-align: center;
+    font-family: Comfortaa;
 }
