@@ -70,12 +70,42 @@ body{
 .founder{
     color: rgb(255, 196, 0);
 }
+.founder:active{
+    color: rgb(255, 196, 0);
+}
+.founder:visited{
+    color: rgb(255, 196, 0);
+}
+.founder:link{
+    color: rgb(255, 196, 0);
+}
+.founder:target{
+    color: rgb(255, 196, 0);
+}
+.founder:focus{
+    color: rgb(255, 196, 0);
+}
 
 .friendList{
     color: #2bff01;
 }
 
 .friend{
+    color: #2bff01;
+}
+.friend:link{
+    color: #2bff01;
+}
+.friend:visited{
+    color: #2bff01;
+}
+.friend:target{
+    color: #2bff01;
+}
+.friend:focus{
+    color: #2bff01;
+}
+.friend:active{
     color: #2bff01;
 }
 
