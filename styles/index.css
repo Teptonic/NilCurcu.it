@@ -34,6 +34,8 @@ body{
     transform: translate(-50%, -50%);
     background-color: rgb(0, 133, 133);
     border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .bio{
@@ -42,6 +44,7 @@ body{
     font-size: xx-large;
     z-index: 998;
     opacity: 1;
+    text-align: center;
 }
 
 #waitForClick{
@@ -58,4 +61,12 @@ body{
     top: 15px;
     left: 15px;
     border-radius: 15px;
+}
+
+.founderList{
+    color: rgb(255, 196, 0);
+}
+
+.friendList{
+    color: #2bff01;
 }
