@@ -67,7 +67,15 @@ body{
     color: rgb(255, 196, 0);
 }
 
+.founder{
+    color: rgb(255, 196, 0);
+}
+
 .friendList{
+    color: #2bff01;
+}
+
+.friend{
     color: #2bff01;
 }
 
